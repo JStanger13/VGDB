@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2812C107FF06C02DEC1C8F2D /* Pods_VGDBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44275A702B505637A13CD159 /* Pods_VGDBUITests.framework */; };
+		63FA1F65AE961E897288D2F8 /* Pods_VGDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA004F1C748D4B06916EDE9 /* Pods_VGDB.framework */; };
 		661C9EA420FE50B1005B627C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C9EA320FE50B1005B627C /* AppDelegate.swift */; };
 		661C9EA620FE50B1005B627C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C9EA520FE50B1005B627C /* ViewController.swift */; };
 		661C9EA920FE50B1005B627C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661C9EA720FE50B1005B627C /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		661C9EAE20FE50B6005B627C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661C9EAC20FE50B6005B627C /* LaunchScreen.storyboard */; };
 		661C9EB920FE50B7005B627C /* VGDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C9EB820FE50B7005B627C /* VGDBTests.swift */; };
 		661C9EC420FE50B7005B627C /* VGDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C9EC320FE50B7005B627C /* VGDBUITests.swift */; };
+		661C9ED320FE5932005B627C /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C9ED220FE5932005B627C /* GameCell.swift */; };
+		661C9ED620FE6562005B627C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C9ED520FE6562005B627C /* GameModel.swift */; };
+		85E2B6E6026B13C639E75032 /* Pods_VGDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F014830AE0E85ABB636D3E0E /* Pods_VGDBTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E802E3204AFAA7A4960E79 /* Pods-VGDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VGDB/Pods-VGDB.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1A2E889D3F844D65E0AB69 /* Pods-VGDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VGDBTests/Pods-VGDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3182237B9C71FFB128A13CEE /* Pods-VGDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGDBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VGDBUITests/Pods-VGDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44275A702B505637A13CD159 /* Pods_VGDBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VGDBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459BD6D988CF0B66FFECB588 /* Pods-VGDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VGDBTests/Pods-VGDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		64D7B2D0AF93292A0A38F74C /* Pods-VGDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-VGDB/Pods-VGDB.release.xcconfig"; sourceTree = "<group>"; };
 		661C9EA020FE50B1005B627C /* VGDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		661C9EA320FE50B1005B627C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		661C9EA520FE50B1005B627C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		661C9EBF20FE50B7005B627C /* VGDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		661C9EC320FE50B7005B627C /* VGDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGDBUITests.swift; sourceTree = "<group>"; };
 		661C9EC520FE50B7005B627C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661C9ED220FE5932005B627C /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		661C9ED520FE6562005B627C /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		91936EAB716C08F795BE4917 /* Pods-VGDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VGDBUITests/Pods-VGDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F014830AE0E85ABB636D3E0E /* Pods_VGDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VGDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA004F1C748D4B06916EDE9 /* Pods_VGDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VGDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FA1F65AE961E897288D2F8 /* Pods_VGDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E2B6E6026B13C639E75032 /* Pods_VGDBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2812C107FF06C02DEC1C8F2D /* Pods_VGDBUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				661C9EB720FE50B7005B627C /* VGDBTests */,
 				661C9EC220FE50B7005B627C /* VGDBUITests */,
 				661C9EA120FE50B1005B627C /* Products */,
+				C9AFB6D9B5B0F8887801EE68 /* Pods */,
+				A4F89539898D61D58EBB1EDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +118,13 @@
 		661C9EA220FE50B1005B627C /* VGDB */ = {
 			isa = PBXGroup;
 			children = (
-				661C9EA320FE50B1005B627C /* AppDelegate.swift */,
+				661C9ED420FE64D3005B627C /* Models */,
+				661C9ED120FE5922005B627C /* Cells */,
 				661C9EA520FE50B1005B627C /* ViewController.swift */,
 				661C9EA720FE50B1005B627C /* Main.storyboard */,
 				661C9EAA20FE50B6005B627C /* Assets.xcassets */,
 				661C9EAC20FE50B6005B627C /* LaunchScreen.storyboard */,
+				661C9EA320FE50B1005B627C /* AppDelegate.swift */,
 				661C9EAF20FE50B6005B627C /* Info.plist */,
 			);
 			path = VGDB;
@@ -125,6 +148,45 @@
 			path = VGDBUITests;
 			sourceTree = "<group>";
 		};
+		661C9ED120FE5922005B627C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				661C9ED220FE5932005B627C /* GameCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		661C9ED420FE64D3005B627C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				661C9ED520FE6562005B627C /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4F89539898D61D58EBB1EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA004F1C748D4B06916EDE9 /* Pods_VGDB.framework */,
+				F014830AE0E85ABB636D3E0E /* Pods_VGDBTests.framework */,
+				44275A702B505637A13CD159 /* Pods_VGDBUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9AFB6D9B5B0F8887801EE68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01E802E3204AFAA7A4960E79 /* Pods-VGDB.debug.xcconfig */,
+				64D7B2D0AF93292A0A38F74C /* Pods-VGDB.release.xcconfig */,
+				0E1A2E889D3F844D65E0AB69 /* Pods-VGDBTests.debug.xcconfig */,
+				459BD6D988CF0B66FFECB588 /* Pods-VGDBTests.release.xcconfig */,
+				91936EAB716C08F795BE4917 /* Pods-VGDBUITests.debug.xcconfig */,
+				3182237B9C71FFB128A13CEE /* Pods-VGDBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 661C9EC820FE50B7005B627C /* Build configuration list for PBXNativeTarget "VGDB" */;
 			buildPhases = (
+				22E2F465D18F48DE91ED1209 /* [CP] Check Pods Manifest.lock */,
 				661C9E9C20FE50B1005B627C /* Sources */,
 				661C9E9D20FE50B1005B627C /* Frameworks */,
 				661C9E9E20FE50B1005B627C /* Resources */,
+				A4D15844F4B9F138D09FC813 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 661C9ECB20FE50B7005B627C /* Build configuration list for PBXNativeTarget "VGDBTests" */;
 			buildPhases = (
+				1DCD3317DFFE7B79D777DD53 /* [CP] Check Pods Manifest.lock */,
 				661C9EB020FE50B7005B627C /* Sources */,
 				661C9EB120FE50B7005B627C /* Frameworks */,
 				661C9EB220FE50B7005B627C /* Resources */,
@@ -167,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 661C9ECE20FE50B7005B627C /* Build configuration list for PBXNativeTarget "VGDBUITests" */;
 			buildPhases = (
+				15EFD321DF1C919F0E6FED10 /* [CP] Check Pods Manifest.lock */,
 				661C9EBB20FE50B7005B627C /* Sources */,
 				661C9EBC20FE50B7005B627C /* Frameworks */,
 				661C9EBD20FE50B7005B627C /* Resources */,
@@ -251,13 +317,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15EFD321DF1C919F0E6FED10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VGDBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCD3317DFFE7B79D777DD53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VGDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E2F465D18F48DE91ED1209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VGDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D15844F4B9F138D09FC813 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VGDB/Pods-VGDB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGDBWrapper/IGDBWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGDBWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VGDB/Pods-VGDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		661C9E9C20FE50B1005B627C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				661C9EA620FE50B1005B627C /* ViewController.swift in Sources */,
+				661C9ED620FE6562005B627C /* GameModel.swift in Sources */,
 				661C9EA420FE50B1005B627C /* AppDelegate.swift in Sources */,
+				661C9ED320FE5932005B627C /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,15 +571,13 @@
 		};
 		661C9EC920FE50B7005B627C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E802E3204AFAA7A4960E79 /* Pods-VGDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVHZ5AR89V;
 				INFOPLIST_FILE = VGDB/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JustinStanger.VGDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +587,13 @@
 		};
 		661C9ECA20FE50B7005B627C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D7B2D0AF93292A0A38F74C /* Pods-VGDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVHZ5AR89V;
 				INFOPLIST_FILE = VGDB/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JustinStanger.VGDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +603,14 @@
 		};
 		661C9ECC20FE50B7005B627C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1A2E889D3F844D65E0AB69 /* Pods-VGDBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVHZ5AR89V;
 				INFOPLIST_FILE = VGDBTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JustinStanger.VGDBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +621,14 @@
 		};
 		661C9ECD20FE50B7005B627C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459BD6D988CF0B66FFECB588 /* Pods-VGDBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVHZ5AR89V;
 				INFOPLIST_FILE = VGDBTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JustinStanger.VGDBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +639,13 @@
 		};
 		661C9ECF20FE50B7005B627C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91936EAB716C08F795BE4917 /* Pods-VGDBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVHZ5AR89V;
 				INFOPLIST_FILE = VGDBUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JustinStanger.VGDBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +656,13 @@
 		};
 		661C9ED020FE50B7005B627C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3182237B9C71FFB128A13CEE /* Pods-VGDBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVHZ5AR89V;
 				INFOPLIST_FILE = VGDBUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JustinStanger.VGDBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
