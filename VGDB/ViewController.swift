@@ -14,6 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     let KEY = "42abe250b08fece0a2a28b1b29d85334"
     var gameList = [Game]()
+    var gameList = [Game]()
+
     
     var currentGame: GameModel?
     let imageCache = NSCache<NSString, UIImage>()
