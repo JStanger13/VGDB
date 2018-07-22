@@ -47,55 +47,34 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let currentGame = gameList[indexPath.row]
 
         cell.gameTitle.text = currentGame.name
-        cell.coverImage = nil
-        let URL_IMAGE = URL(string: "https://i.4pcdn.org/s4s/1510200817001.png")
-        let session = URLSession(configuration: .default)
-        let getImageFromUrl = session.dataTask(with: URL_IMAGE!)
-       
-        cell.coverImage.image = UIImage(data: getImageFromUrl)
         
-        //var urlS = (currentGame.cover?.url)!
-//        var isStringNil = urlS ?? "nil"
-//        var httpImage = ""
-//        if isStringNil == "nil"{
-//            httpImage = "https://i.4pcdn.org/s4s/1510200817001.png"
-//        }else{
-//            httpImage = "https:\(isStringNil)"
-//        }
-//        print(httpImage)
-//
-//        let urlString = httpImage
-//        cell.coverImage!.image! =  fileUrl
-//        if let imageFromCache = imageCache.object(forKey: urlString){
-//            cell.coverImage.image = imageFromCache
-//        } else if let imageURL =  URL(string: (urlString as String)){
-//            DispatchQueue.global().async {
-//                let data = try? Data(contentsOf: imageURL)
-//                if let data = data {
-//
-//                    let image = UIImage(data: data)
-//                    DispatchQueue.main.async {
-//
-//                        let  imageToCache = image
-//                        self.imageCache.setObject(image!, forKey: urlString)
-//                            if imageToCache == nil{
-//                                //do something
-//                        }else{
-//                            cell.coverImage.image = imageToCache
-//
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//        else{
-//            //do nothing
-//        }
+        
+        
+        
+        if currentGame.cover?.url != nil{
+            
+            let url = URL(string: "https:" + currentGame.cover!.url!)
+            let sessionTask = URLSession.shared
+            let request = URLRequest(url: url!)
+            let task = sessionTask.dataTask(with: request, completionHandler: {(data: Data?, response: URLResponse?, error: Error?) -> Void in
+                if (error == nil) {
+                    let image: UIImage = UIImage(data: data!)!
+                    cell.coverImage.image = image
+                }
+                
+            })
+            task.resume()
+            
+            
+            print(currentGame.cover!.url!)
+        }else{
+            
+            print("Shit's NILL")
+        }
         return cell
     }
     
     func getJSON(title: String){
-        print("INGETJSON")
         self.gameList = [Game]()
         searchGame(title: title)
         self.tableView.reloadData()
